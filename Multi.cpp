@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int a, b, multi;
+    int a, b, multi , sum;
 
     cout << "Enter first number: ";
     cin >> a;
@@ -11,8 +11,9 @@ int main() {
     cin >> b;
 
     multi = a + b;
+    sum = a + b ;
 
     cout <<"product is" << multi << endl;
-
+cout <<"sum is" << sum << endl;
     return 0;
 }
